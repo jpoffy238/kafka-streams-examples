@@ -42,6 +42,10 @@
             <id>confluent</id>
             <url>https://packages.confluent.io/maven/</url>
         </pluginRepository>
+        <pluginRepository>
+            <id>centralMaven</id>
+            <url>http://central.maven.org/maven2/</url>
+        </pluginRepository>
     </pluginRepositories>
 
     <!-- Other properties such as kafka.version are derived from parent project(s) such as
